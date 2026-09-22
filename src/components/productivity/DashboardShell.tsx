@@ -6,8 +6,8 @@ import { cn } from "@/lib/utils";
 
 const navItems = [
   { label: "Email", fullLabel: "Smart Email Generator", to: "/", icon: Mail, exact: true },
-  { label: "Notes", fullLabel: "Meeting Notes Summarizer", to: "/meeting-notes", icon: FileText },
-  { label: "Planner", fullLabel: "AI Task Planner", to: "/task-planner", icon: CalendarClock },
+  { label: "Notes", fullLabel: "Meeting Notes Summarizer", to: "/meeting-notes", icon: FileText, exact: true },
+  { label: "Planner", fullLabel: "AI Task Planner", to: "/task-planner", icon: CalendarClock, exact: true },
 ] as const;
 
 export function DashboardShell({ children }: { children: ReactNode }) {
