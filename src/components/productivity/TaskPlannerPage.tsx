@@ -60,7 +60,9 @@ export function TaskPlannerPage() {
           id="task-list"
           value={tasks}
           onChange={(event) => setTasks(event.target.value)}
-          placeholder="Example: Prepare client proposal — high priority — due Thursday\nReview analytics report — medium priority\nSend budget update — due today"
+          placeholder={`Example: Prepare client proposal — high priority — due Thursday
+Review analytics report — medium priority
+Send budget update — due today`}
           className="min-h-72 bg-background leading-6 shadow-inner-soft"
         />
       </div>
